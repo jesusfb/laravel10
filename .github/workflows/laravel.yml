@@ -1,6 +1,5 @@
 name: DockerImageCI
 
-
 on:
   push:
     branches: [ main ]
@@ -9,7 +8,7 @@ on:
 
 jobs:
 
-    build-and-push:
+    build:
 
     runs-on: ubuntu-latest
 
